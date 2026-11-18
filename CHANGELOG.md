@@ -6,6 +6,13 @@ All notable changes to this package are documented here. The format follows
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-18
+
+### Fixed
+
+- Allow Guzzle 8. The client only uses Laravel's HTTP client, so it works
+  with either major version of Guzzle.
+
 ## [1.0.0] - 2026-11-18
 
 First release. Requires PHP 8.2+ and Laravel 12 or 13.
@@ -21,5 +28,6 @@ First release. Requires PHP 8.2+ and Laravel 12 or 13.
   GET requests after connection errors or 5xx responses.
 - Typed exceptions, all extending `DiscogsException`.
 
-[Unreleased]: https://github.com/osaris-uk/discogs/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/osaris-uk/discogs/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/osaris-uk/discogs/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/osaris-uk/discogs/releases/tag/v1.0.0
