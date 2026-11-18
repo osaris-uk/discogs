@@ -6,7 +6,7 @@ A Laravel client for the [Discogs API](https://www.discogs.com/developers) (v2),
 
 **Authenticated requests only.** Every request carries an `Authorization` header. If no credentials are available the client throws `MissingCredentialsException` and sends nothing; there is no anonymous fallback.
 
-- PHP 8.2+, Laravel 11, 12 or 13
+- PHP 8.2+, Laravel 12 or 13
 - Personal token, consumer key/secret and full OAuth 1.0a
 - Every documented endpoint: database, marketplace, inventory export/upload, users, collection, wantlist, lists
 - Pagination helpers, rate limit handling, retried reads, typed exceptions
